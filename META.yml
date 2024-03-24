@@ -31,7 +31,7 @@ no_index:
 provides:
   Alien::SeqAlignment::bowtie2:
     file: lib/Alien/SeqAlignment/bowtie2.pm
-    version: '0.01'
+    version: '0.03'
 requires:
   Alien::Base: '0.038'
   parent: '0'
@@ -41,7 +41,7 @@ resources:
   IRC: irc://irc.perl.org/#native
   homepage: https://github.com/chrisarg/alien-seqalignment-bowtie2
   repository: https://github.com/chrisarg/alien-seqalignment-bowtie2.git
-version: '0.01'
+version: '0.03'
 x_alienfile:
   generated_by: 'Dist::Zilla::Plugin::AlienBuild version 0.32'
   requires:

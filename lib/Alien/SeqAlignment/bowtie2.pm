@@ -1,11 +1,15 @@
   use strict;
   use warnings;
   package Alien::SeqAlignment::bowtie2;
-$Alien::SeqAlignment::bowtie2::VERSION = '0.01';
+$Alien::SeqAlignment::bowtie2::VERSION = '0.03';
 use parent qw( Alien::Base );
 =head1 NAME
 
 Alien::SeqAlignment::bowtie2 - find, build and install the bowtie2 tools
+
+=head1 VERSION
+
+version 0.03
 
 =head1 SYNOPSIS
 
@@ -166,6 +170,11 @@ the static and the dynamic edlib library in your code.
 =item * L<Alien::Build::Manual::AlienUser|https://metacpan.org/dist/Alien-Build/view/lib/Alien/Build/Manual/AlienUser.pod>
 
 Detailed manual for users of Alien classes.
+
+=item * L<Bio::SeqAlignment|https://metacpan.org/pod/Bio::SeqAlignment>
+
+A collection of tools and libraries for aligning biological sequences 
+from within Perl. 
 
 =back
 

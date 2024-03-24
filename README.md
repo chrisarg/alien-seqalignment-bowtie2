@@ -2,6 +2,10 @@
 
 Alien::SeqAlignment::bowtie2 - find, build and install the bowtie2 tools
 
+# VERSION
+
+version 0.03
+
 # SYNOPSIS
 
 To execute the hmmer3 set of tools, you can use the following code:
@@ -106,6 +110,11 @@ format indices.
 - [Alien::Build::Manual::AlienUser](https://metacpan.org/dist/Alien-Build/view/lib/Alien/Build/Manual/AlienUser.pod)
 
     Detailed manual for users of Alien classes.
+
+- [Bio::SeqAlignment](https://metacpan.org/pod/Bio::SeqAlignment)
+
+    A collection of tools and libraries for aligning biological sequences 
+    from within Perl. 
 
 # AUTHOR
 
